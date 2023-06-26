@@ -8,11 +8,13 @@ import {BlendFunction} from "postprocessing";
 import {FGrid} from "./Grid";
 import React from "react";
 import {Robot} from "./Robot";
+import {Words} from "./Words";
 
-export function  CarShow(){
+export function  Scene(){
     return (
         <>
-            <OrbitControls target={[0,1,0]} maxPolarAngle={1.45} maxDistance={15} minDistance={3}/>
+
+            <OrbitControls target={[0,2,0]} maxPolarAngle={1.45} maxDistance={15} minDistance={3}/>
 
             <PerspectiveCamera makeDefault fov={50} position={[2,9,7]} />
             <color args={[0,0,0]} attach="background"/>
@@ -30,10 +32,10 @@ export function  CarShow(){
             </CubeCamera>
             {/*<Walls/>*/}
             {/*<ambientLight*/}
-            {/*    intensity={0.1}*/}
+            {/*    intensity={1}*/}
             {/*/>*/}
             <spotLight
-                color={[1, 0.25, 0.7]}
+                color={[0.255, 0.215, 0]}
                 intensity={1.5}
                 angle={0.6}
                 penumbra={0.5}
@@ -42,7 +44,8 @@ export function  CarShow(){
                 shadow-bias={-0.0001}
             />
             <spotLight
-                color={[0.14, 0.5, 1]}
+                color={[0.255, 0.255, 0.255]}
+
                 intensity={2}
                 angle={0.6}
                 penumbra={0.5}
@@ -69,6 +72,7 @@ export function  CarShow(){
                     offset={[0.0005, 0.0012]} // color offset
                 />
             </EffectComposer>
+
         </>
     );
 }

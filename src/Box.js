@@ -21,7 +21,7 @@ function Box({color}){
     }
 
     function resetPos() {
-        let v = new Vector3((Math.random() * 2 - 1) * 3, Math.random() * 2.5 + 0.1, Math.random() * 10 + 10);
+        let v = new Vector3((Math.random() * 2 - 1) * 3, Math.random() * 2.5 + 0.1, Math.random() * 10 + 2);
         if(v.x < 0) v.x -= 1.75;
         if(v.x > 0) v.x += 1.75;
 
@@ -31,7 +31,7 @@ function Box({color}){
         time.current += delta * 1.2;
         let newZ = pos.z - (time.current);
 
-        if(newZ < -10) {
+        if(newZ < -7) {
             resetPos();
             time.current = 0;
         }
@@ -58,6 +58,6 @@ export function Boxes(){
             [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
             0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
             0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,0,0,0,0,0,0].map((e,i)=> <Box key={i} color={i%2===0 ? [0.4,0.1,0.1] : [0.05,0.15,0.4] }/>)}
+            0,0,0,0,0,0,0,0,0,0,0,0,0,0].map((e,i)=> <Box key={i} color={i%2===0 ? [0.255, 0.215, 0] : [0.255, 0.255, 0.255] }/>)}
     </>
 }

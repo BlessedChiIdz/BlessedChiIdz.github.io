@@ -3,4 +3,44 @@ html,body,#root,canvas{
     height: 100%;
     margin: 0;
     overflow: hidden;
+    --gold: #ffb338;
+    --light-shadow: #77571d;
+    --dark-shadow: #3e2904;
+}
+
+
+@font-face {
+    font-family: 'Canetrburry';
+    src: local("Canetrburry"),
+    url("./fonts/Canterbury.ttf") format("truetype");
+}
+.char {
+    font-family: Canetrburry;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: #fff7cc;
+    font-size: 6vw;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    line-height: 0.8em;
+}
+
+.WORDS{
+    pointer-events: none;
+}
+
+hr{
+    background: #fff7cc;
+    border: none;
+}
+.buttonMM{
+    top: 50%;
+    left:calc(100vw - 46px);
+    width: auto;
+    height: auto;
+    background:transparent;
+    border:none;
+    overflow: hidden;
 }

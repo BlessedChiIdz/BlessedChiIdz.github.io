@@ -1,16 +1,21 @@
 import React from 'react';
 import { Suspense } from 'react';
 import {Canvas} from "@react-three/fiber";
-import {CarShow} from "./3dScene";
+import {Scene} from "./3dScene";
+import {Words} from "./Words";
+
 
 
 function App() {
   return (
-    <Suspense fallback={null}>
-      <Canvas shadows>
-        <CarShow/>
-      </Canvas>
-    </Suspense>
+      <>
+        <Suspense fallback={null}>
+          <Canvas shadows>
+              <Scene/>
+          </Canvas>
+        </Suspense>
+          <Words/>
+      </>
   );
 }
 
