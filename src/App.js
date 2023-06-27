@@ -15,6 +15,7 @@ function App() {
           </Canvas>
         </Suspense>
           <Words/>
+          <div>qwe</div>
       </>
   );
 }

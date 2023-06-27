@@ -16,7 +16,7 @@ export function  Scene(){
 
             <OrbitControls target={[0,2,0]} maxPolarAngle={1.45} maxDistance={15} minDistance={3}/>
 
-            <PerspectiveCamera makeDefault fov={50} position={[2,9,7]} />
+            <PerspectiveCamera makeDefault fov={50} position={[2,5,3]} />
             <color args={[0,0,0]} attach="background"/>
 
             {/*<Rings/>*/}

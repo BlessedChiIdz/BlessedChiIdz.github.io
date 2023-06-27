@@ -1,9 +1,9 @@
 @media (min-width: 600px) and (max-width: 5000px) {
     .sideMenu{
         position: absolute;
-        left: 80%;
+        left: 85%;
         top: 0%;
-        width: 20%;
+        width: 15%;
         height: 100%;
     }
 }
@@ -11,14 +11,14 @@
 @media (min-width: 100px) and (max-width: 600px) {
     .sideMenu{
         position: absolute;
-        left: 65%;
-        width: 35%;
+        left: 75%;
+        width: 25%;
         top: 0%;
         height: 100%;
     }
 }
 .sideMenu{
-    background: linear-gradient(90deg, transparent ,rgba(111,110,22,1) 100%);
+    background: #fff7cc;
     pointer-events: none;
 }
 
@@ -40,7 +40,7 @@
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: #fff;
+    background-color: #000000;
 }
 .close:before {
     transform: rotate(45deg);
