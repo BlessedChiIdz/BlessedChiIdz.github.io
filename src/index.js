@@ -10,6 +10,5 @@ const root = createRoot(
 root.render(
     <>
         <App />
-
     </>
 );
