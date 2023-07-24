@@ -19,9 +19,9 @@ export function Words() {
                 Designed By BK
             </div>
             <button className="MPButton" onClick={click}>
-                {/*<Buttons/>*/}
                 <Arrow/>
             </button>
+
 
         </>
     )

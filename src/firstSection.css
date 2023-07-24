@@ -5,6 +5,12 @@ html,body,#root{
     --gold: #ffb338;
     --light-shadow: #77571d;
     --dark-shadow: #3e2904;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -33,6 +39,12 @@ body {
 
 .WORDS{
     pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 hr{
@@ -44,6 +56,7 @@ hr{
 }
 
 .MPButton{
+    user-select: none;
     border: none;
     position: absolute;
     top: 93%;
@@ -51,3 +64,4 @@ hr{
     background: transparent;
     transform: translate(-50%, -50%);
 }
+

@@ -1,39 +1,30 @@
 import {CubeCamera, Environment, OrbitControls, PerspectiveCamera} from "@react-three/drei";
-import {Rings} from "./Rings";
 import {Boxes} from "./Box";
-import {Car} from "./Car";
 import {Ground} from "./Ground";
 import {Bloom, ChromaticAberration, EffectComposer} from "@react-three/postprocessing";
 import {BlendFunction} from "postprocessing";
-import {FGrid} from "./Grid";
 import React from "react";
 import {Robot} from "./Robot";
-import {Words} from "./Words";
 
-export function  Scene(){
+export function  Scene(arr){
+    let xyz = arr.arr
     return (
         <>
-
             <OrbitControls target={[0,2,0]} maxPolarAngle={1.45} maxDistance={15} minDistance={3}/>
-
-            <PerspectiveCamera makeDefault fov={50} position={[2,5,3]} />
+            <PerspectiveCamera makeDefault fov={50} position={[xyz[0],xyz[1],xyz[2]]} />
             <color args={[0,0,0]} attach="background"/>
-
             {/*<Rings/>*/}
             <Boxes/>
             <CubeCamera resolution={256} frames={Infinity}>
+
                 {(texture)=>(
                     <>
                         <Environment map={texture}/>
-                        {/*<Car/>*/}
                         <Robot/>
                     </>
                 )}
             </CubeCamera>
-            {/*<Walls/>*/}
-            {/*<ambientLight*/}
-            {/*    intensity={1}*/}
-            {/*/>*/}
+
             <spotLight
                 color={[0.255, 0.215, 0]}
                 intensity={1.5}

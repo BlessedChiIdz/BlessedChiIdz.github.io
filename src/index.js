@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM, {createRoot} from 'react-dom/client';
 import App from './App';
-import './style.css'
+import './firstSection.css'
 import {Words} from "./Words";
 
 const root = createRoot(
