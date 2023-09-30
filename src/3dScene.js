@@ -3,15 +3,17 @@ import {Boxes} from "./Box";
 import {Ground} from "./Ground";
 import {Bloom, ChromaticAberration, EffectComposer} from "@react-three/postprocessing";
 import {BlendFunction} from "postprocessing";
-import React from "react";
+import React, {useRef} from "react";
 import {Robot} from "./Robot";
 
 export function  Scene(arr){
     let xyz = arr.arr
+    let ref = useRef(PerspectiveCamera)
+    console.log(ref)
     return (
         <>
             <OrbitControls target={[0,2,0]} maxPolarAngle={1.45} maxDistance={15} minDistance={3}/>
-            <PerspectiveCamera makeDefault fov={50} position={[xyz[0],xyz[1],xyz[2]]} />
+            <PerspectiveCamera makeDefault fov={50} position={[xyz[0],xyz[1],xyz[2]]} ref={ref}/>
             <color args={[0,0,0]} attach="background"/>
             {/*<Rings/>*/}
             <Boxes/>
@@ -24,7 +26,6 @@ export function  Scene(arr){
                     </>
                 )}
             </CubeCamera>
-
             <spotLight
                 color={[0.255, 0.215, 0]}
                 intensity={1.5}
