@@ -8,14 +8,14 @@ import SecondSection from "./secondSection";
 
 
 function App() {
-    let arr = [2,5,3]
+
 
   return (
       <>
           <div className="canvScene">
               <Suspense fallback={null}>
                   <Canvas shadows>
-                      <Scene arr={arr} />
+                      <Scene/>
                   </Canvas>
               </Suspense>
               <Words/>

@@ -51,8 +51,10 @@ hr{
     background: #fff7cc;
     border: none;
 }
+
 .canvScene{
     height: 100vh;
+    /*width: 500px;*/
 }
 
 .MPButton{
