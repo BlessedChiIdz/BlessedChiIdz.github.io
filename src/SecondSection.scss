@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Canetrburry';
+    src: local("Canetrburry"),
+    url("./fonts/Canterbury.ttf") format("truetype");
+}
+
+@media (min-width: 200px) and (max-width : 1200px) {
+
+    .mainDiv{
+        width: 100vw;
+    }
+
+}
+
+@media (min-width: 1200px)and
+(max-width: 5000px){
+    .mainDiv{
+        width: 50vw;
+    }
+
+}
+.mainDiv{
+    margin-top: 20px;
+    margin-left: 8%;
+    display: inline-block;
+    color: white;
+
+    position: relative;
+    font-family: Canetrburry;
+}
+.Name{
+    font-size: 5vw;
+    padding-bottom: 5vh;
+    /*padding-left: 8vw;*/
+}
+.description{
+    font-size: 4vw;
+    color: #808080;
+}
+.mainSkills{
+    padding-right: 10vw;
+}
+.links{
+    padding-left: 2vw;
+    text-align: -webkit-center;
+}
+.podLinks{
+    font-size: 4vh;
+}
+.linkWord{
+  text-align: center;
+  color: white;
+}
+.lineMS{
+  height: 2px;
+  margin: 0;
+  border: 0;
+  background: linear-gradient(45deg,white,transparent 50% ,white);
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  margin-top: 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #BFC0C0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+
+/* First Button */
+
+#arrow-hover {
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  transform: translateX(60px);
+  opacity: 0;
+  -webkit-transition: all .25s cubic-bezier(.14, .59, 1, 1.01);
+  transition: all .15s cubic-bezier(.14, .59, 1, 1.01);
+  margin: 0;
+  padding: 0 5px;
+}
+
+a#button-1:hover img {
+  width: 15px;
+  opacity: 1;
+  transform: translateX(50px);
+}
+
+.end{
+
+  font-size: 3vh;
+  text-align: center;
+}

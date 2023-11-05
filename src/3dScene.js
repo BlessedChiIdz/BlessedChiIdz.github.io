@@ -12,8 +12,8 @@ export function  Scene(){
     return (
         <>
             <ambientLight intensity={0.1}/>
-            <OrbitControls target={[-15,2,0]} maxPolarAngle={1.45}/>
-            <PerspectiveCamera makeDefault fov={50} position={[2,15,-30]} ref={ref}/>
+            <OrbitControls target={[0,2,0]} maxPolarAngle={1.45}/>
+            <PerspectiveCamera makeDefault fov={50} position={[8,16,-30]} ref={ref}/>
             <color args={[0,0,0]} attach="background"/>
             {/*<Boxes/>*/}
             <CubeCamera resolution={256} frames={Infinity}>

@@ -2,7 +2,7 @@ import React, {createContext} from 'react';
 import ReactDOM, {createRoot} from 'react-dom/client';
 import { StrictMode } from 'react';
 import App from './App';
-import './firstSection.css'
+import './firstSection+container.css'
 import {Words} from "./Words";
 
 const root = createRoot(

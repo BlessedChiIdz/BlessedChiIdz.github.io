@@ -11,6 +11,7 @@ html,body,#root{
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
+    background-color: black;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -36,7 +37,9 @@ body {
     margin: 0;
     line-height: 0.8em;
 }
-
+.container{
+    display: flex;
+}
 .WORDS{
     pointer-events: none;
     -webkit-touch-callout: none;
@@ -51,11 +54,42 @@ hr{
     background: #fff7cc;
     border: none;
 }
-
 .canvScene{
-    height: 100vh;
-    /*width: 500px;*/
+    display: inline-block;
 }
+@media (min-width: 200px) and (max-width : 1200px) {
+
+    .canvScene{
+        height: 50vh;
+    }
+
+}
+
+
+@media (min-width: 1200px)and
+(max-width: 1400px){
+
+    .canvScene{
+        height: 80vh;
+        width: 50vw;
+    }
+
+}
+
+@media (min-width: 1400px)and
+(max-width: 5000px){
+
+    .canvScene{
+        height: 100vh;
+        width: 50vw;
+    }
+
+}
+
+
+
+
+
 
 .MPButton{
     user-select: none;
