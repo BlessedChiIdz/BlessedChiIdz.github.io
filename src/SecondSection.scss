@@ -7,7 +7,7 @@
 @media (min-width: 200px) and (max-width : 1200px) {
 
     .mainDiv{
-        width: 100vw;
+        //width: 100vw;
     }
 
 }
@@ -15,17 +15,18 @@
 @media (min-width: 1200px)and
 (max-width: 5000px){
     .mainDiv{
-        width: 50vw;
+        //width: 50vw;
     }
-
+}
+.tableContainer{
+  width: max-content;
+  display: flex;
+  flex-wrap: wrap;
 }
 .mainDiv{
     margin-top: 20px;
     margin-left: 8%;
-    display: inline-block;
     color: white;
-
-    position: relative;
     font-family: Canetrburry;
 }
 .Name{
@@ -102,7 +103,6 @@ a#button-1:hover img {
 }
 
 .end{
-
   font-size: 3vh;
   text-align: center;
 }
