@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/BlessedChiIdz.github.io/static/css/main.2fac9f35.css",
-    "main.js": "/BlessedChiIdz.github.io/static/js/main.def0e485.js",
+    "main.css": "/BlessedChiIdz.github.io/static/css/main.eee1d07f.css",
+    "main.js": "/BlessedChiIdz.github.io/static/js/main.475f518a.js",
     "static/media/Canterbury.ttf": "/BlessedChiIdz.github.io/static/media/Canterbury.d1da583cd325a3a36860.ttf",
     "index.html": "/BlessedChiIdz.github.io/index.html",
-    "main.2fac9f35.css.map": "/BlessedChiIdz.github.io/static/css/main.2fac9f35.css.map",
-    "main.def0e485.js.map": "/BlessedChiIdz.github.io/static/js/main.def0e485.js.map"
+    "main.eee1d07f.css.map": "/BlessedChiIdz.github.io/static/css/main.eee1d07f.css.map",
+    "main.475f518a.js.map": "/BlessedChiIdz.github.io/static/js/main.475f518a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fac9f35.css",
-    "static/js/main.def0e485.js"
+    "static/css/main.eee1d07f.css",
+    "static/js/main.475f518a.js"
   ]
 }
