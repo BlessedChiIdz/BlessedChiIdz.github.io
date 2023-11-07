@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import "./SecondSection.scss"
+import "./SecondSection.css"
 
 const SecondSection = () => {
     let [github,setGithub] = useState("Github")
