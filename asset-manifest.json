@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.b52002ce.css",
-    "main.js": "/react-gh-pages/static/js/main.665528fa.js",
-    "static/media/Canterbury.ttf": "/react-gh-pages/static/media/Canterbury.d1da583cd325a3a36860.ttf",
-    "index.html": "/react-gh-pages/index.html",
-    "main.b52002ce.css.map": "/react-gh-pages/static/css/main.b52002ce.css.map",
-    "main.665528fa.js.map": "/react-gh-pages/static/js/main.665528fa.js.map"
+    "main.css": "/BlessedChiIdz.github.io/static/css/main.2fac9f35.css",
+    "main.js": "/BlessedChiIdz.github.io/static/js/main.def0e485.js",
+    "static/media/Canterbury.ttf": "/BlessedChiIdz.github.io/static/media/Canterbury.d1da583cd325a3a36860.ttf",
+    "index.html": "/BlessedChiIdz.github.io/index.html",
+    "main.2fac9f35.css.map": "/BlessedChiIdz.github.io/static/css/main.2fac9f35.css.map",
+    "main.def0e485.js.map": "/BlessedChiIdz.github.io/static/js/main.def0e485.js.map"
   },
   "entrypoints": [
-    "static/css/main.b52002ce.css",
-    "static/js/main.665528fa.js"
+    "static/css/main.2fac9f35.css",
+    "static/js/main.def0e485.js"
   ]
 }
