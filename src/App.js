@@ -2,7 +2,6 @@ import React, {forwardRef, useRef} from 'react';
 import { Suspense } from 'react';
 import {Canvas} from "@react-three/fiber";
 import {Scene} from "./3dScene";
-import {Words} from "./Words";
 import "./firstSection+container.css"
 import SecondSection from "./secondSection";
 
@@ -19,7 +18,6 @@ function App() {
                           <Scene/>
                       </Canvas>
                   </Suspense>
-                  <Words/>
               </div>
               <SecondSection/>
           </div>

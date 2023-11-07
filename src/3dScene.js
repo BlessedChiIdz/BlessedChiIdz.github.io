@@ -1,10 +1,8 @@
 import {CubeCamera, Environment, OrbitControls, PerspectiveCamera} from "@react-three/drei";
-import {Boxes} from "./Box";
-import {Ground} from "./Ground";
 import {Bloom, ChromaticAberration, EffectComposer} from "@react-three/postprocessing";
 import {BlendFunction} from "postprocessing";
 import React, {useRef} from "react";
-import {Masks} from "./Masks";
+import {Me} from "./Me";
 
 export function  Scene(){
     let ref = useRef(PerspectiveCamera)
@@ -20,7 +18,7 @@ export function  Scene(){
                 {(texture)=>(
                     <>
                         <Environment map={texture}/>
-                        <Masks/>
+                        <Me/>
                     </>
                 )}
             </CubeCamera>
