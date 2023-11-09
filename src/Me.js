@@ -6,7 +6,7 @@ import {GLTFLoader} from "three/addons/loaders/GLTFLoader";
 export function Me(){
     const gltf = useLoader(
         GLTFLoader,
-        '/mi/scene.gltf'
+        process.env.PUBLIC_URL + '/mi/scene.gltf'
     );
 
     useFrame((state, delta) => {
