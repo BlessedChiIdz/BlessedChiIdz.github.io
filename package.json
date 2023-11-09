@@ -1,7 +1,6 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://BlessedChiIdz.github.io/BlessedChiIdz.github.io",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.74.6",
