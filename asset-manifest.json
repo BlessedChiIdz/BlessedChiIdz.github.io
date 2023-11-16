@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Card/static/css/main.e10d8b2b.css",
+    "main.css": "/Card/static/css/main.a0c38146.css",
     "main.js": "/Card/static/js/main.aee1d1d3.js",
     "static/media/Canterbury.ttf": "/Card/static/media/Canterbury.d1da583cd325a3a36860.ttf",
     "index.html": "/Card/index.html",
-    "main.e10d8b2b.css.map": "/Card/static/css/main.e10d8b2b.css.map",
+    "main.a0c38146.css.map": "/Card/static/css/main.a0c38146.css.map",
     "main.aee1d1d3.js.map": "/Card/static/js/main.aee1d1d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e10d8b2b.css",
+    "static/css/main.a0c38146.css",
     "static/js/main.aee1d1d3.js"
   ]
 }
